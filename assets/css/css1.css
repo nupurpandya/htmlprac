@@ -15,7 +15,7 @@ body{
 {
     width: 25px;
     height: 25px;
-    margin:  13px;
+    padding:  13px;
 }
 .font1{
     font-family:Roboto;
@@ -28,18 +28,23 @@ body{
     height: 150px;
     background-color: orangered;
     border-radius: 10px;
+    
    
 } 
 .fontapple{
     color: var(--main-bg-color);
     font-weight:var(--font-weight);
     font-size: 18px;
+    padding-left: 40px;
 }
+/*display inline-block used*/
 .sectiondiv{
     width: 160px;
     height: 145px;
     background-color: var(--main-bg-color);
     border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
 }
 .icon1{
     height: 50px;
@@ -63,4 +68,9 @@ h4{
 }
 .center{
     text-align: center;
+}
+/*display inline-block used*/
+.inline{
+    display: inline-block;
+    padding: 100px;
 }
