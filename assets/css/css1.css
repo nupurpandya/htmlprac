@@ -22,13 +22,17 @@ body{
     color:#4D5E80;
     font-weight: var(--font-weight);
     font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .applecard{
     width: 150px;
     height: 150px;
     background-color: orangered;
     border-radius: 10px;
-    
    
 } 
 .fontapple{
@@ -37,13 +41,13 @@ body{
     font-size: 18px;
     padding-left: 40px;
 }
-/*display inline-block used*/
+
 .sectiondiv{
     width: 160px;
     height: 145px;
     background-color: var(--main-bg-color);
     border-radius: 10px;
-    display: inline-block;
+    display:flex;
     margin: 10px;
 }
 .icon1{
@@ -69,8 +73,42 @@ h4{
 .center{
     text-align: center;
 }
-/*display inline-block used*/
+
 .inline{
-    display: inline-block;
     padding: 100px;
+}
+.flex1{
+    display: flex;
+}
+
+
+.sectiondiv2{
+    margin-left:20px;
+}
+.main-div{
+    height:200px;
+    width:200px;
+    border:1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+}
+
+.icondiv{
+    height:70px;
+    width:70px;
+    background-color: white;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
 }
