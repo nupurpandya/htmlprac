@@ -26,3 +26,6 @@ a{
 .cross,.bell{
     display: inline-block;
 }
+.inline-block{
+    display: inline-block;
+}
