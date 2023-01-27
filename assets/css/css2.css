@@ -20,12 +20,8 @@ a{
 .navclass{
     float: right;
 }
-.CS{
-    display: inline-block;
-}
-.cross,.bell{
-    display: inline-block;
-}
+
+
 .inline-block{
     display: inline-block;
 }

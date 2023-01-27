@@ -1,0 +1,443 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#F7F8FA;
+}
+.menu-l{
+    display: flex;
+}
+.linkclass{
+    list-style-type: none;
+    display: flex;
+}
+.btnlogo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.statusclass{
+    position: absolute;
+    padding-left: 44px;
+    padding-bottom: 25px;
+}
+.navmenu{
+    margin: 20px 25px;
+}
+.class-h2{
+    font-weight: 700;
+    font-size: 18px;
+    color: #4D5E80;
+    padding-top: 14px;
+    padding-left: 34px;
+    padding-right: 54px;
+}
+.linkitems{
+    font-weight: 700;
+    font-size: 13px;
+    color: #7D8FB3;
+    padding: 0px 15px;
+}
+.linkclass{
+    padding-top: 15px;
+}
+.menu-r{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userimg{
+    height: 20px;
+    width: 20px;
+    /* margin-top: 12px; */
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.class-h4{
+    font-weight: 700;
+    font-size: 13px;
+    color: #6B7A99;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.notificationicon{
+    margin-right: 10px;
+}
+.bankdetails{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+.class-h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #4D5E80;
+}
+.fontclass{
+    font-weight: 700;
+    font-size: 12px;
+    color: #ADB8CC;
+}
+.banklogo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+.investmentlogo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 175px;
+}
+.cashbacklogo1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+}
+.cashbacklogo2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+}
+.bankacc{
+    margin-left: 25px;
+}
+.investmentacc{
+    margin-left: 25px;
+}
+.cashbackfirst{
+    margin-left: 25px;
+}
+.cashbacksecond{
+    margin-left: 25px;
+}
+.card{
+    padding: 40px;
+    width: 540px;
+    background-color: #1A2233;
+    margin: 32px 30px;
+    border-radius: 10px;
+    color: white;
+}
+.round-slidebtn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #26334D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardheading{
+    font-weight: 700;
+    font-size: 24px;
+}
+.cardheader{
+    display: flex;
+    justify-content: space-between;
+}
+.bankbalance{
+    font-weight: 500;
+    font-size: 36px;
+    padding-left: 25px;
+}
+.balancedetails{
+    display: flex;
+}
+.tncfontp{
+    font-weight: 500;
+    font-size: 30px;
+}
+.tncfontt{
+    font-weight: 700;
+    font-size: 14px;
+    color: #6B7A99;
+}
+.cardbankdetails{
+    display: flex;
+    margin-top: 50px;
+}
+.details{
+    flex-basis: 50%;
+}
+.cardslide{
+    margin-top: 50px;
+}
+.slidesecondimg, .slidethirdimg{
+    padding-left: 10px;
+}
+.secondcard{
+    padding: 40px;
+    width: 540px;
+    background-color: white;
+    margin: 32px 30px;
+    border-radius: 10px;
+}
+.example{
+    display: flex;
+}
+.transactiongplaydiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.cardsection{
+    display: flex;
+}
+.secondcardheading{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #4D5E80;
+}
+.androidlogo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gplayt{
+    font-weight: 700;
+    font-size: 14px;
+    color: #4D5E80;
+}
+.gplayd{
+    font-weight: 700;
+    font-size: 12px; 
+    color: #ADB8CC;  
+}
+.wt{
+    font-weight: 700;
+    font-size: 18px;
+    color: #4D5E80;
+}
+.totaltransaction{
+    width: 540px;
+    height: 255px;
+    padding: 30px;
+    background-color: #8833FF;
+    border-radius: 10px;
+    margin: 32px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.thirdcardheading{
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+.tt{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+.cashbackflow{
+    width: 540px;
+    height: 145px;
+    /* padding: 30px; */
+    background-color: white;
+    border-radius: 10px;
+    margin: 32px 30px;
+    padding: 20px;
+}
+.cardthreefour{
+    display: flex;
+}
+.cflowt{
+    font-weight: 700;
+    font-size: 14px;
+    color: #4D5E80;
+}
+.scard{
+    width: 170px;
+    height: 145px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sonecard{
+    width: 170px;
+    height: 145px;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.stwocard{
+    width: 170px;
+    height: 145px;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.servicescards{
+    display: flex;
+    margin-left: 30px;
+}
+.scardlogo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serviceheading{
+    font-weight: 700;
+    font-size: 12px;
+    color: #4D5E80;
+    margin-top: 15px;
+}
+.applecard{
+    width: 280px;
+    height: 255px;
+    background: #FF6633;
+    margin-top: 75px;
+    border-radius: 10px;
+    color: white;
+}
+.messengercard{
+    width: 280px;
+    height: 255px;
+    background: #33BFFF;
+    margin-top: 75px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.messengerapple{
+    display: flex;
+}
+.messengerd{
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+.appleclasst{
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 25px;
+}
+.appleprice{
+    font-weight: 400;
+    font-size: 36px;
+    padding-top: 35px;
+}
+.appledetails{
+    margin-top: 45px;
+    margin-left: 40px;
+}
+.tsessioncard{
+    width: 270px;
+    height: 190px;
+    background-color: khaki;
+    border-radius: 15px;
+}
+.tsessiont{
+    font-weight: 700;
+    font-size: 12px;
+    color: #6B7A99;
+}
+.column-align{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.asider{
+    border-left: 2px solid gray;
+    height: 1100px;
+    width: 330px;
+}
+.sessionscard{
+    background-color: white;
+    height: 190px;
+    width: 270px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.tstext{
+    font-weight: 700;
+    font-size: 12px;
+    color: #6B7A99;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+.tsnum{
+    font-weight: 700;
+    font-size: 24px;
+    color: #4D5E80;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.tssection{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    border-bottom: 2px solid grey;
+}
+.livedata{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    padding: 20px;
+    border-top: 2px solid grey;
+}
