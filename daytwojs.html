@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Operators Task</title>
+</head>
+<body>
+    <script>
+        //Current Date
+        let tdate=new Date();
+        document.write("today's date is" + tdate +  "<br>");
+        // Setting a date
+        let gdate=new Date("Dec 15 2022");
+        document.write(gdate + "<br>");
+        // Today's Day
+        let day=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        let gtday= tdate.getDay();
+        document.write("Today is:" + " " + day[gtday] + "<br>");
+        // Current Time
+        document.write("Current time:" + tdate.getHours() + ":" + tdate.getMinutes() + ":" + tdate.getSeconds() + "<br>");
+        // Random Number
+        let a=64;
+        let num= Math.sqrt(a);
+        document.write(num + "<br>");
+        // Maximum Number
+        let m= Math.max(10,20,30);
+        document.write(m + "<br>");
+        // Random Number
+        function randomNum(max) {
+            return Math.floor(Math.random() * max);
+        }
+        document.write(randomNum(100) + "<br>");
+        // if else
+        let num2=300;
+        if(num2>100 && num2<500){
+            document.write("Number is between 100 and 500" + "<br>");
+        }
+        else{
+            document.write("Number is not between 100 and 500" + "<br>");
+        }
+        // Check Equality Function
+        function checkEquality(x,y){
+            if(x===y){
+                document.write("Equal" + "<br>");
+            }
+            else{
+                document.write("Not Equal" + "<br>");
+            }
+        }
+        checkEquality(0,"0");
+        checkEquality(1,1);
+    </script>
+</body>
+</html>
