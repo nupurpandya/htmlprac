@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pallindrome Task</title>
+  </head>
+  <body>
+    <script>
+      // Reverse a string
+      function reverseString(str) {
+      
+        var rstr = "";
+        for (var i = str.length-1; i >= 0; i--) {
+          rstr += str[i];
+        }
+        console.log(rstr);
+        if(s==rstr){
+        console.log("It is a palindrome");
+      }
+      else{
+        console.log("It is not a palindrome");
+      }
+      }
+      var s="hih"; //It is a palindrome
+      reverseString(s);
+     
+    //  Checking whether it is a pallindrome or not
+     
+    </script>
+  </body>
+</html>
