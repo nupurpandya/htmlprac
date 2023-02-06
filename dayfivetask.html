@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 Tasks</title>
+</head>
+
+<body>
+    <script>
+        let movie = [{ title: 'Inception', director: 'Christopher Nolan', alreadyWatched: true }, { title: 'Spiderman', director: 'Stan Lee', alreadyWatched: false }, { title: `k3g`, director: `KJO`, alreadyWatched: true }];
+        for (let i = 0; i < movie.length; i++) {
+            if (movie[i]['alreadyWatched'] == true) {
+                console.log(`you have watched` + ` ` + movie[i].title + `by` + ` ` +  movie[i].director);
+            }
+            else {
+                console.log(`you still need to watch` +  ` ` + movie[i].title + `by` +  ` ` +  movie[i].director);
+            }
+        }
+        //    Task 2
+        function sumArray(numbers) {
+
+            var sum = 0;
+            for (i = 0; i < numbers.length; i++) {
+                sum = sum + numbers[i];
+            }
+            console.log(`Sum is` + sum);
+        }
+        var a = [2, 5, 0, 7, 4, 3, 1, 0, 2, 5, 0, 1, 3, 1];
+        sumArray(a);
+        //Task 3
+        let grade=95;
+        switch (true) {
+            case grade>=90:
+                console.log("Grade is A");
+                break;
+            case grade>=80 && grade<=89:
+                console.log("Grade is B");
+                break;
+            case grade>=70 && grade<=79:
+                console.log("Grade is C");
+                break;
+            case grade>=60 && grade<=69:
+                console.log("Grade is D");
+                break;
+            case grade<=59:
+                console.log("Grade is F");
+                break;
+            default:
+                console.log("Enter a valid value");
+                break;
+        }
+    </script>
+</body>
+
+</html>
