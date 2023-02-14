@@ -18,7 +18,27 @@
             }
             console.log(rev);
         }
-        reverseNumber(Number(10));
+        reverseNumber(Number(110));
+
+        //input:-123
+        //output:-321
+
+        function revnum(m)
+        {
+            let rev1=m.toString().split("").reverse().join("");
+            if(rev1.endsWith("-"))
+            {
+                rev1 = "-" + rev1;
+                return parseInt(rev1);
+                // console.log(typeof rev1);
+            }
+            else{
+                return parseInt(rev1);
+            }
+   
+        }
+        console.log(revnum(-1124));
+        ///////////
         function toAlphabetical(str){
             let arr=str.split('').sort().join('');
             console.log(arr);
@@ -30,14 +50,40 @@
             let arr=[];
             // console.log(words.split(''));
             for (let i = 0; i < words.length; i++) {
-               
-                    arr.push(words[i].charAt(0).toUpperCase());
-             
-                
+                arr.push(words[i].charAt(0).toUpperCase());
             }
             console.log(arr);
         }
         toUpper("My name is nupur");
+
+        ///5] Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string.
+
+        function countVowels(q)
+        {
+            let count=0;
+            let vowels="aeiouAEIOU";
+
+
+            for(i=0;i<q.length;i++)
+            {
+                if(vowels.indexOf(q[i])> -1){
+                    count++;
+                }
+            //   let p =vowels.indexOf(q[i]);
+            //   console.log(p);
+            }
+            console.log(count);
+        }
+        countVowels("nupUur");
+
+        // Write a JavaScript function that accept a list of country names as input and returns the longest country name as output.
+
+        // function state(x)
+        // {
+        //     return x.reduce((a,b)=>a.length > b.length ? a : b);
+        // }
+        // let arr=["Gujarat","Maharastra"]
+        // console.log(state(arr));
     </script>
 </body>
 </html>
