@@ -9,62 +9,62 @@
   <body>
     <script>
       //Write a JavaScript function to retrieve all the values of an object's properties.
-      // function getValues(person){
-      //   return Object.values(person);
+      function getValues(person){
+        return Object.values(person);
         
-      // }
+      }
       let person={
           name:"nupur",
           age:22
         };
-      //   var values= getValues(person);
-      //   console.log(values);
+        var values= getValues(person);
+        console.log(values);
        
       // //Write a JavaScript function to convert an object into a list of `[key, value]` pairs.
-      // function getKeyValue(person){
-      //   return Object.entries(person);
-      // }
-      // var keyvalue=getKeyValue(person);
-      // console.log(keyvalue);
-      // // // Write a JavaScript program to remove duplicate items from an array (ignore case sensitivity).
-      // function removeDuplicate(arr) {
-      //   let array1 = [new Set(arr)];
-      //   console.log(array1);
-      // }
-      // let arr = [1, 2, 3, 3, 4, 5, 2, 4];
-      // removeDuplicate(arr);
-      // //Write a JavaScript function to remove a specific element from an array.
-      // function removeSpecific(arr, n) {
-      //   let newarray = [];
-      //   for (let index = 0; index < arr.length; index++) {
-      //     if (arr[index] != n) {
-      //       newarray.push(arr[index]);
-      //     }
-      //   }
-      //   return newarray;
-      // }
-      // let result = removeSpecific([1, 2, 3, 4, 5], 3);
-      // console.log(result);
+      function getKeyValue(person){
+        return Object.entries(person);
+      }
+      var keyvalue=getKeyValue(person);
+      console.log(keyvalue);
+      // // Write a JavaScript program to remove duplicate items from an array (ignore case sensitivity).
+      function removeDuplicate(arr) {
+        let array1 = [new Set(arr)];
+        console.log(array1);
+      }
+      let arr = [1, 2, 3, 3, 4, 5, 2, 4];
+      removeDuplicate(arr);
+      //Write a JavaScript function to remove a specific element from an array.
+      function removeSpecific(arr, n) {
+        let newarray = [];
+        for (let index = 0; index < arr.length; index++) {
+          if (arr[index] != n) {
+            newarray.push(arr[index]);
+          }
+        }
+        return newarray;
+      }
+      let result = removeSpecific([1, 2, 3, 4, 5], 3);
+      console.log(result);
 
       // //  Write a JavaScript function to merge two arrays and removes all duplicates elements.
 
-      // function mergeDuplicate(a, b) {
-      //   let concat = a.concat(b);
-      //   let p = [new Set(concat)];
-      //   return p;
-      // }
-      // let arr1 = [1, 2, 3];
-      // let arr2 = [4, 5, 6, 3, 10];
-      // console.log(mergeDuplicate(arr1, arr2));
-      // Write a JavaScript program to find the most frequent item of an array.
-      // function frequentItem(arr){
-      //   for (let i = 0; i < arr.length; i++) {
+      function mergeDuplicate(a, b) {
+        let concat = a.concat(b);
+        let p = [new Set(concat)];
+        return p;
+      }
+      let arr1 = [1, 2, 3];
+      let arr2 = [4, 5, 6, 3, 10];
+      console.log(mergeDuplicate(arr1, arr2));
+      //Write a JavaScript program to find the most frequent item of an array.
+      function frequentItem(arr){
+        for (let i = 0; i < arr.length; i++) {
           
-      //   }
-      // }
-      // let freqa=[1,2,3,4,5,5,5];
-      // let resultfreq=frequentItem(freqa);
-      //console.log(resultfreq);
+        }
+      }
+      let freqa=[1,2,3,4,5,5,5];
+      let resultfreq=frequentItem(freqa);
+      console.log(resultfreq);
       // Write a JavaScript function to get a random item from an array.[1,2,3,4,5,6,7,8,9,10]
       function randomItem(a){
         console.log(a[Math.floor(Math.random()*a.length)]);
