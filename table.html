@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <table></table> -->
+    <script>
+      let employee = [
+        { id: 1, name: "Nupur", Address: "Udvada" },
+        { id: 2, name: "Nirali", Address: "Udvada" },
+        { id: 2, name: "Diya", Address: "Udvada" }
+      ];
+      
+      let table = document.createElement("table");
+      function thead(table, employee) {
+        let thead = table.createTHead();
+
+        console.log(table);
+        let row = thead.insertRow();
+
+        for (const key in employee[0]) {
+          let th = document.createElement("th");
+          let text=document.createTextNode(key);
+          th.appendChild(text);
+          row.appendChild(th);
+        }
+      }
+      function tbody(table, employee) {
+          let tbody = table.createTBody();
+       for (const key1 of employee) {
+        let bodyrow=tbody.insertRow();
+        for (const key in key1) {
+            let td=bodyrow.insertCell();
+            let tdtext=document.createTextNode(key1[key]);
+            td.appendChild(tdtext);
+        }
+       }
+      }
+      thead(table,employee);
+      tbody(table, employee);
+      let body=document.querySelector("body");
+      body.appendChild(table);
+    
+    </script>
+  </body>
+</html>

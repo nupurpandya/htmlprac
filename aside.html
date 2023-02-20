@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+        .a-decor{
+            text-decoration: none;
+            color: green;
+        }
+        .list-style{
+            list-style-type: none;
+        }
+    </style>
+    <script>
+      let asided = [
+        {
+          name: "Home",
+          link: "https://www.tutorialspoint.com/how-to-find-the-href-and-target-attributes-in-a-link-in-javascript",
+        },
+        {
+          name: "About us",
+          link: "https://flexiple.com/javascript/key-value-javascript/",
+        },
+        {
+          name: "Contact us",
+          link: "https://www.tutorialspoint.com/how-to-find-the-href-and-target-attributes-in-a-link-in-javascript",
+        },
+      ];
+      let aside = document.createElement("aside");
+      console.log(aside);
+      function sidebar(asided, aside) {
+        let nav = document.createElement("nav");
+        aside.appendChild(nav);
+        let ul = document.createElement("ul");
+        nav.appendChild(ul);
+        for (const iterator of asided) {
+          let li = document.createElement("li");
+          ul.appendChild(li);
+        li.classList.add("list-style");
+          let a = document.createElement("a");
+          li.appendChild(a);
+          let litext = document.createTextNode(iterator.name);
+          a.appendChild(litext);
+
+          a.setAttribute("href", iterator.link);
+          a.classList.add('a-decor');
+        }
+      }
+      sidebar(asided, aside);
+      let body = document.querySelector("body");
+      body.appendChild(aside);
+    </script>
+  </body>
+</html>
